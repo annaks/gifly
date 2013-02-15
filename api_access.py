@@ -1,7 +1,7 @@
 import urllib2
 import ujson as json
 
-API_KEY=''
+API_KEY=open('API_KEY.no').read()
 API_URL='https://api-ssl.bitly.com'
 
 HIGH_VALUE_API = '/v3/highvalue?access_token='+ API_KEY +'&limit='
