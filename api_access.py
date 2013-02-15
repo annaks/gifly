@@ -2,8 +2,7 @@ import urllib2
 import ujson as json
 import pprint
 
-ACCESS_TOKEN='53a01f38b09c0463cb9e2b35b151beb127843bf3'
-#ACCESS_TOKEN=open('API_KEY.no').read()
+ACCESS_TOKEN=open('API_KEY.no').read()
 API_URL='https://api-ssl.bitly.com'
 
 HIGH_VALUE_API = '/v3/highvalue?access_token='+ ACCESS_TOKEN +'&limit='
